@@ -11,9 +11,9 @@ public class MergeSort {
             return;
         }
         int mid = l + ((r - l) >> 1); // divide
-        sort(arr, l, mid); // solve
+        sort(arr, l, mid); // conquer
         sort(arr, mid + 1, r);
-        merge(arr, l, mid, r); // merge
+        merge(arr, l, mid, r); // combine
     }
 
     private static void merge(int[] arr, int l, int mid, int r) {
