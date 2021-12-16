@@ -1,5 +1,10 @@
 package part1.chapter4;
 
+/**
+ * @author Miles
+ * @create 2021-12-15 10:21 AM
+ * @email miles.j.hoo@gmail.com
+ **/
 public class MaximumSubarray {
 
     public int[] divideAndConquer(int[] arr) {
